@@ -1,9 +1,6 @@
 from alpha_vantage.timeseries import TimeSeries
 import pandas as pd
-import numpy as np
-from pandas_datareader import data
 import matplotlib.pyplot as plt
-import pandas_datareader.data as web
 from datetime import datetime
 import matplotlib.ticker as ticker
 import notify
