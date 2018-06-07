@@ -13,6 +13,7 @@ sudo pip install matplotlib<br>
 sudo pip install python-telegram-bot<br>
 
 ### INSTALL Windows (and other Linux)
+git clone https://github.com/InfiniteFor/SRSI-Bot.git (make sure git is installed, otherwise just download from site)<br>
 sudo pip install alpha_vantage<br>
 sudo pip install matplotlib<br>
 sudo pip install python-telegram-bot<br>
