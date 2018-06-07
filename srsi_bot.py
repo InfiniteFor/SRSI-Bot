@@ -36,14 +36,10 @@ while True:
     roll_down1 = down.abs().ewm(ignore_na=False,min_periods=0,adjust=True,com=14).mean()
     roll_up2 = up.rolling(window=14,center=False).mean()
     roll_down2 = down.abs().rolling(window=14,center=False).mean()
-    # Calculate the RSI based on SMA
     RS2 = roll_up2 / roll_down2
     df['RSI'] = 100.0 - (100.0 / (1.0 + RS2))
-    #Create the "L14" column in the DataFrame
     df['L14'] = df['3. low'].rolling(window=14).min()
-    #Create the "H14" column in the DataFrame
     df['H14'] = df['2. high'].rolling(window=14).max()
-    #Create the "%K" column in the DataFrame
     df['StochRSI'] = 100*((df['4. close'] - df['L14']) / (df['H14'] - df['L14']) )
     df = df[14:]
     y = []
