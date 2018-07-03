@@ -14,6 +14,7 @@ sudo pip install python-telegram-bot<br>
 
 ### INSTALL Linux
 git clone https://github.com/InfiniteFor/SRSI-Bot.git<br>
+past api keys in srsi-bot.py (alpa vantage key) and notify.py (telegram key and chatid)<br>
 sudo pip install alpha_vantage<br>
 sudo pip install matplotlib<br>
 sudo pip install python-telegram-bot<br>
@@ -21,6 +22,7 @@ sudo pip install pandas<br>
 
 ### INSTALL Windows
 git clone https://github.com/InfiniteFor/SRSI-Bot.git (make sure git is installed, otherwise just download from site)<br>
+past api keys in srsi-bot.py (alpa vantage key) and notify.py (telegram key and chatid)<br>
 pip install alpha_vantage<br>
 pip install matplotlib<br>
 pip install python-telegram-bot<br>
