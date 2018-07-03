@@ -1,6 +1,6 @@
 # SRSI-Bot
 StochRSI Bot with telegram sell/buy notifications (python 2.7)
-
+![Alt text](srsi.png)
 ### INSTALL Raspberry Pi
 git clone https://github.com/InfiniteFor/SRSI-Bot.git<br>
 cd SRSI-Bot<br>
